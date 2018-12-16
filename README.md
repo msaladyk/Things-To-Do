@@ -1,5 +1,5 @@
 # Things-To-Do
-This is a simple to-do list made in HTML, CSS and JavaScript.
+This is a simple to-do list made using HTML, CSS and JavaScript.
 
 #### Preview:
 https://msaladyk.github.io/Sit-On-Chair/
