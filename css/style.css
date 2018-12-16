@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    list-style: none;
+    font-family: 'Amatic SC', cursive;
+}
+
+.mainWidth {
+    width: 800px;
+    margin: 0 auto;
+}
+
+button {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    background: none;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+input {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+
+*:focus {
+    outline: none;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.completed {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.underLine {
+    border-bottom: 2px solid black;
+    width: 180px;
+    margin: 0 auto;
+}
+
+h3#counter {
+    font-size: 25px;
+}
+
+#removeFinishedTasksButton {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    transition: 0.1s all;
+}
+
+#removeFinishedTasksButton:hover {
+    background-color: #ed2553;
+    color: white;
+}
+
+#taskList {
+    list-style-type: none;
+    text-align: left;
+}
+
+.task {
+    display: inline;
+}
+
+#addTaskButton {
+    font-size: 40px;
+}
+
+p#errorPlaceholder {
+    font-size: 20px;
+}
+
+div.task {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.complete {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+/*button.complete:hover {*/
+    /*background-image: url("../images/correct-mark.png");*/
+    /*background-size: contain;*/
+    /*background-origin: content-box;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+/*}*/
+
+.deleteBtn {
+    background-size: contain;
+    background-image: url(../images/delete.png);
+    height: 30px;
+    width: 30px;
+    border: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.deleteBtn:hover {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: rotate(-10deg); }
+    30% { transform: rotate(10deg); }
+    60% { transform: rotate(-10deg); }
+    70% { transform: rotate(10deg); }
+    80% { transform: rotate(-10deg); }
+    90% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
