@@ -18,7 +18,7 @@ counter.innerText = 0;
 // Add Task Event (enter)
     taskInput.addEventListener('keyup', function (event) {
         event.preventDefault();
-        if (event.keyCode === 13) {
+        if (event.key === 'Enter') {
             if (taskInput.value.length > 4 && taskInput.value.length < 101) {
                 var newTask = document.createElement('li');
                 newTask.innerHTML = '<button></button><div><h1></h1></div><button></button>';
